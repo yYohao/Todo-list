@@ -14,7 +14,7 @@ const TodoList = ({todos, toggleTodo}) => (
     </ul>
 )
 
-TodoList.PropTypes = {
+TodoList.propTypes = {
     todos: PropTypes.arrayOf(
         PropTypes.shape({
             id: PropTypes.number.isRequired,
